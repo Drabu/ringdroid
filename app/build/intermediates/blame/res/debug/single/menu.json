@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/buren/Downloads/ringdroid-master/app/build/intermediates/res/merged/debug/menu/edit_options.xml",
+        "source": "/home/buren/Downloads/ringdroid-master/app/src/main/res/menu/edit_options.xml"
+    },
+    {
+        "merged": "/home/buren/Downloads/ringdroid-master/app/build/intermediates/res/merged/debug/menu/select_options.xml",
+        "source": "/home/buren/Downloads/ringdroid-master/app/src/main/res/menu/select_options.xml"
+    }
+]

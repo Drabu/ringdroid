@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/buren/Downloads/ringdroid-master/app/build/intermediates/res/merged/debug/layout-land/after_save_action.xml",
+        "source": "/home/buren/Downloads/ringdroid-master/app/src/main/res/layout-land/after_save_action.xml"
+    },
+    {
+        "merged": "/home/buren/Downloads/ringdroid-master/app/build/intermediates/res/merged/debug/layout-land/media_select_row.xml",
+        "source": "/home/buren/Downloads/ringdroid-master/app/src/main/res/layout-land/media_select_row.xml"
+    },
+    {
+        "merged": "/home/buren/Downloads/ringdroid-master/app/build/intermediates/res/merged/debug/layout-land/editor.xml",
+        "source": "/home/buren/Downloads/ringdroid-master/app/src/main/res/layout-land/editor.xml"
+    },
+    {
+        "merged": "/home/buren/Downloads/ringdroid-master/app/build/intermediates/res/merged/debug/layout-land/media_select.xml",
+        "source": "/home/buren/Downloads/ringdroid-master/app/src/main/res/layout-land/media_select.xml"
+    }
+]
