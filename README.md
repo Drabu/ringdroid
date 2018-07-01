@@ -1,3 +1,14 @@
+This repository resolve the issues with ringdroid. An amazing audio cutting library.
+The following issues are resolved in this rep:
+
+**OutOfMemoryError While uploading higher file sizes [SOLVED]**
+**Slow loading speed [SOLVED]**
+**Some MP3 files Loading Gets Stuck [SOLVED]**
+
+Since the app is using Heap Memory so you will most probably get OutOfMemoryError while uploading audios of higher file sizes [ 40MB or greater ]. To resolve this issue you can put largeHeap="true" in android manifest but that still wont solve your problem as you would only get around 50 mb for a single app session. to put it simple if i open the app and upload an audio of file size 50MB and after trimming the audio if you want to trim an audio of size 1 or 2MB, you will have to restart [ because GC is called when you clear the app from recents ] the app or else you would get OutOfMemoryError exception. To resolve this issue you need to implement Streams [input and out streams ] that not only increases the file max file limit but also decreases the loading time to a great extent.
+Also while uploading some audio files [mp3] the loader gets stuck without throwing any exception.
+Ringdroid is an amazing library to handle various operations in android
+
 ![](https://github.com/google/ringdroid/wiki/images/header.png)
 
 **Ringdroid is now on GitHub!**
